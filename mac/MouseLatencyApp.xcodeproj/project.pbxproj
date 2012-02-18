@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		311322B014EC63E800862E3E /* Probe.m in Sources */ = {isa = PBXBuildFile; fileRef = 311322AF14EC63E800862E3E /* Probe.m */; };
+		311322B414EC65B900862E3E /* InputReportProbe.m in Sources */ = {isa = PBXBuildFile; fileRef = 311322B314EC65B900862E3E /* InputReportProbe.m */; };
+		311322B814EC669C00862E3E /* EventTapProbe.m in Sources */ = {isa = PBXBuildFile; fileRef = 311322B714EC669C00862E3E /* EventTapProbe.m */; };
+		311322BB14EC696E00862E3E /* MyNSEventProbe.m in Sources */ = {isa = PBXBuildFile; fileRef = 311322BA14EC696E00862E3E /* MyNSEventProbe.m */; };
+		31BF678F14EB1F02000C1690 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BF678E14EB1F02000C1690 /* Cocoa.framework */; };
+		31BF679914EB1F02000C1690 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 31BF679714EB1F02000C1690 /* InfoPlist.strings */; };
+		31BF679B14EB1F02000C1690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF679A14EB1F02000C1690 /* main.m */; };
+		31BF67A214EB1F02000C1690 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF67A114EB1F02000C1690 /* AppDelegate.m */; };
+		31BF67A514EB1F02000C1690 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31BF67A314EB1F02000C1690 /* MainMenu.xib */; };
+		31BF67AC14EB2014000C1690 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31BF67AB14EB2014000C1690 /* IOKit.framework */; };
+		31BF67AF14EB21EA000C1690 /* MyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BF67AE14EB21EA000C1690 /* MyApplication.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		311322AE14EC63E800862E3E /* Probe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Probe.h; sourceTree = "<group>"; };
+		311322AF14EC63E800862E3E /* Probe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Probe.m; sourceTree = "<group>"; };
+		311322B214EC65B900862E3E /* InputReportProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputReportProbe.h; sourceTree = "<group>"; };
+		311322B314EC65B900862E3E /* InputReportProbe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputReportProbe.m; sourceTree = "<group>"; };
+		311322B614EC669C00862E3E /* EventTapProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventTapProbe.h; sourceTree = "<group>"; };
+		311322B714EC669C00862E3E /* EventTapProbe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventTapProbe.m; sourceTree = "<group>"; };
+		311322B914EC696E00862E3E /* MyNSEventProbe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNSEventProbe.h; sourceTree = "<group>"; };
+		311322BA14EC696E00862E3E /* MyNSEventProbe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNSEventProbe.m; sourceTree = "<group>"; };
+		31BF678A14EB1F02000C1690 /* MouseLatencyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseLatencyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		31BF678E14EB1F02000C1690 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		31BF679114EB1F02000C1690 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		31BF679214EB1F02000C1690 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		31BF679314EB1F02000C1690 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		31BF679614EB1F02000C1690 /* MouseLatencyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MouseLatencyApp-Info.plist"; sourceTree = "<group>"; };
+		31BF679814EB1F02000C1690 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		31BF679A14EB1F02000C1690 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		31BF679C14EB1F02000C1690 /* MouseLatencyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MouseLatencyApp-Prefix.pch"; sourceTree = "<group>"; };
+		31BF67A014EB1F02000C1690 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		31BF67A114EB1F02000C1690 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		31BF67A414EB1F02000C1690 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		31BF67AB14EB2014000C1690 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		31BF67AD14EB21EA000C1690 /* MyApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyApplication.h; sourceTree = "<group>"; };
+		31BF67AE14EB21EA000C1690 /* MyApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyApplication.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		31BF678714EB1F02000C1690 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF67AC14EB2014000C1690 /* IOKit.framework in Frameworks */,
+				31BF678F14EB1F02000C1690 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		311322B514EC65C100862E3E /* Probes */ = {
+			isa = PBXGroup;
+			children = (
+				311322AE14EC63E800862E3E /* Probe.h */,
+				311322AF14EC63E800862E3E /* Probe.m */,
+				311322B914EC696E00862E3E /* MyNSEventProbe.h */,
+				311322BA14EC696E00862E3E /* MyNSEventProbe.m */,
+				311322B614EC669C00862E3E /* EventTapProbe.h */,
+				311322B714EC669C00862E3E /* EventTapProbe.m */,
+				311322B214EC65B900862E3E /* InputReportProbe.h */,
+				311322B314EC65B900862E3E /* InputReportProbe.m */,
+			);
+			name = Probes;
+			sourceTree = "<group>";
+		};
+		31BF677F14EB1F02000C1690 = {
+			isa = PBXGroup;
+			children = (
+				31BF679414EB1F02000C1690 /* src */,
+				31BF678D14EB1F02000C1690 /* Frameworks */,
+				31BF678B14EB1F02000C1690 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		31BF678B14EB1F02000C1690 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31BF678A14EB1F02000C1690 /* MouseLatencyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		31BF678D14EB1F02000C1690 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BF67AB14EB2014000C1690 /* IOKit.framework */,
+				31BF678E14EB1F02000C1690 /* Cocoa.framework */,
+				31BF679014EB1F02000C1690 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31BF679014EB1F02000C1690 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31BF679114EB1F02000C1690 /* AppKit.framework */,
+				31BF679214EB1F02000C1690 /* CoreData.framework */,
+				31BF679314EB1F02000C1690 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		31BF679414EB1F02000C1690 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				31BF67A314EB1F02000C1690 /* MainMenu.xib */,
+				31BF67A014EB1F02000C1690 /* AppDelegate.h */,
+				31BF67A114EB1F02000C1690 /* AppDelegate.m */,
+				31BF67AD14EB21EA000C1690 /* MyApplication.h */,
+				31BF67AE14EB21EA000C1690 /* MyApplication.m */,
+				311322B514EC65C100862E3E /* Probes */,
+				31BF679514EB1F02000C1690 /* Supporting Files */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		31BF679514EB1F02000C1690 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				31BF679614EB1F02000C1690 /* MouseLatencyApp-Info.plist */,
+				31BF679714EB1F02000C1690 /* InfoPlist.strings */,
+				31BF679A14EB1F02000C1690 /* main.m */,
+				31BF679C14EB1F02000C1690 /* MouseLatencyApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BF678914EB1F02000C1690 /* MouseLatencyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 31BF67A814EB1F02000C1690 /* Build configuration list for PBXNativeTarget "MouseLatencyApp" */;
+			buildPhases = (
+				31BF678614EB1F02000C1690 /* Sources */,
+				31BF678714EB1F02000C1690 /* Frameworks */,
+				31BF678814EB1F02000C1690 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseLatencyApp;
+			productName = MouseLatencyApp;
+			productReference = 31BF678A14EB1F02000C1690 /* MouseLatencyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		31BF678114EB1F02000C1690 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 31BF678414EB1F02000C1690 /* Build configuration list for PBXProject "MouseLatencyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 31BF677F14EB1F02000C1690;
+			productRefGroup = 31BF678B14EB1F02000C1690 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BF678914EB1F02000C1690 /* MouseLatencyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		31BF678814EB1F02000C1690 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF679914EB1F02000C1690 /* InfoPlist.strings in Resources */,
+				31BF67A514EB1F02000C1690 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		31BF678614EB1F02000C1690 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31BF679B14EB1F02000C1690 /* main.m in Sources */,
+				31BF67A214EB1F02000C1690 /* AppDelegate.m in Sources */,
+				31BF67AF14EB21EA000C1690 /* MyApplication.m in Sources */,
+				311322B014EC63E800862E3E /* Probe.m in Sources */,
+				311322B414EC65B900862E3E /* InputReportProbe.m in Sources */,
+				311322B814EC669C00862E3E /* EventTapProbe.m in Sources */,
+				311322BB14EC696E00862E3E /* MyNSEventProbe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		31BF679714EB1F02000C1690 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BF679814EB1F02000C1690 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		31BF67A314EB1F02000C1690 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				31BF67A414EB1F02000C1690 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		31BF67A614EB1F02000C1690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		31BF67A714EB1F02000C1690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		31BF67A914EB1F02000C1690 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/MouseLatencyApp-Prefix.pch";
+				INFOPLIST_FILE = "src/MouseLatencyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		31BF67AA14EB1F02000C1690 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "src/MouseLatencyApp-Prefix.pch";
+				INFOPLIST_FILE = "src/MouseLatencyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		31BF678414EB1F02000C1690 /* Build configuration list for PBXProject "MouseLatencyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BF67A614EB1F02000C1690 /* Debug */,
+				31BF67A714EB1F02000C1690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		31BF67A814EB1F02000C1690 /* Build configuration list for PBXNativeTarget "MouseLatencyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31BF67A914EB1F02000C1690 /* Debug */,
+				31BF67AA14EB1F02000C1690 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 31BF678114EB1F02000C1690 /* Project object */;
+}

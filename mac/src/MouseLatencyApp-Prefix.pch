@@ -1,0 +1,10 @@
+//
+// Prefix header for all source files of the 'MouseLatencyApp' target in the 'MouseLatencyApp' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+    #import <IOKit/hid/IOHIDLib.h>
+    #import <mach/mach_time.h>
+    #import <CoreServices/CoreServices.h>
+#endif
