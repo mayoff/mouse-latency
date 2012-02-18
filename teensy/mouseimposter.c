@@ -125,7 +125,7 @@ static uint16_t getManufacturerDescriptor(void const **const outDescriptor) {
 }
 
 static uint16_t getProductDescriptor(void const **const outDescriptor) {
-    MakeStringDescriptor(kDescriptor, "Mouse Latency Tester");
+    MakeStringDescriptor(kDescriptor, "Mouse Imposter");
     *outDescriptor = &kDescriptor;
     return pgm_read_byte(&kDescriptor.Header.Size);
 }
